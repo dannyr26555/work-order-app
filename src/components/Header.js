@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <div>
       <Navbar dark sticky="top" expand="md" className="app-header fw-bold">
-        <NavbarBrand className="ms-5">
+        <NavbarBrand className="ms-4">
           <h1 className="display-4">Work Order App</h1>
         </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

@@ -1,6 +1,10 @@
 :root {
   --blue: #264653;
   --yellow: #eac974;
+  --teal: #2a9d8f;
+  --orange: #f4a261;
+  --red-orange: #e76f51;
+  --gray: #d2d0d0;
 }
 
 body {
@@ -24,4 +28,25 @@ a {
 .nav-link:hover,
 .app-header a:hover {
   color: white;
+}
+
+.table-head {
+  background-color: var(--red-orange);
+  color: white;
+}
+
+.table-body {
+  background-color: var(--orange);
+  color: white;
+}
+
+.card-comp {
+  background-color: var(--teal);
+  color: white;
+}
+
+.link-unstyled,
+.link-unstyled:link {
+  color: inherit;
+  text-decoration: inherit;
 }

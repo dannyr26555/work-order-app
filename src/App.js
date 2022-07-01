@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
 import MySitesPage from "./pages/MySitesPage";
 import SupportPage from "./pages/SupportPage";
+import SitePage from "./pages/SitePage";
 import "./App.css";
 
 const App = () => {
@@ -12,9 +13,9 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/sites" element={<MySitesPage />} />
-        <Route path="/support" element={<SupportPage />} />
-        {/* <Route path="/detail:workOrderId" element={<WorkOrderDetailPage />} /> */}
+        <Route path="sites" element={<MySitesPage />} />
+        <Route path="support" element={<SupportPage />} />
+        <Route path="sites/:siteId" element={<SitePage />} />
       </Routes>
     </div>
   );
