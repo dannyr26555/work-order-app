@@ -15,6 +15,11 @@ body {
   background-color: var(--blue);
 }
 
+.detail-header {
+  background-color: var(--teal);
+  color: white;
+}
+
 .nav-link,
 a {
   cursor: pointer;

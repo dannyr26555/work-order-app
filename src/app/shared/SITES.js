@@ -8,7 +8,7 @@ export const SITES = [
     state: "IL",
     zip: "60601",
     siteContact: "John Smith",
-    status: "Active",
+    siteStatus: "Active",
   },
   {
     id: 1,
@@ -19,7 +19,7 @@ export const SITES = [
     state: "IL",
     zip: "60606",
     siteContact: "Mary Mack",
-    status: "Active",
+    siteStatus: "Active",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const SITES = [
     state: "IL",
     zip: "60604",
     siteContact: "Don Campbell",
-    status: "Inactive",
+    siteStatus: "Inactive",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const SITES = [
     state: "IL",
     zip: "60613",
     siteContact: "Franklin James",
-    status: "Inactive",
+    siteStatus: "Inactive",
   },
   {
     id: 4,
@@ -52,6 +52,6 @@ export const SITES = [
     state: "IL",
     zip: "60612",
     siteContact: "Martin King",
-    status: "Active",
+    siteStatus: "Active",
   },
 ];
